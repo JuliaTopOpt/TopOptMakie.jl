@@ -1,0 +1,29 @@
+name = "TopOptMakie"
+uuid = "e9c7d871-bed6-4650-ae23-a24e464b8b55"
+authors = ["JuliaTopOpt Contributors"]
+version = "0.1.0"
+
+[deps]
+AbstractPlotting = "537997a7-5e4e-5d89-9595-2241ea00577e"
+Ferrite = "c061ca5d-56c9-439f-9c0e-210fe06d3992"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
+GeometryTypes = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+TopOptProblems = "27704a7e-a4df-40bc-951d-d074625df1c8"
+VTKDataTypes = "10d27dd1-1d0f-5a4c-b178-bd2d0045a217"
+
+[compat]
+AbstractPlotting = "0.15, 0.16"
+Ferrite = "0.3"
+GeometryBasics = "0.3"
+GeometryTypes = "0.8"
+Requires = "1.1"
+VTKDataTypes = "0.1"
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
