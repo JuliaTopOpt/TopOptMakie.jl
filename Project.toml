@@ -16,7 +16,7 @@ VTKDataTypes = "10d27dd1-1d0f-5a4c-b178-bd2d0045a217"
 [compat]
 AbstractPlotting = "0.15, 0.16"
 Ferrite = "0.3"
-GeometryBasics = "0.3"
+GeometryBasics = "0.3, 0.4"
 GeometryTypes = "0.8"
 Requires = "1.1"
 VTKDataTypes = "0.1"
