@@ -2,6 +2,7 @@ module TopOptMakie
 
 using TopOptProblems: AbstractTopOptProblem, StiffnessTopOptProblem
 using Ferrite, VTKDataTypes, Requires
+using WGLMakie
 
 include("mesh_types.jl")
 
