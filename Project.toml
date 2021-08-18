@@ -21,11 +21,11 @@ VTKDataTypes = "10d27dd1-1d0f-5a4c-b178-bd2d0045a217"
 WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 
 [compat]
-AbstractPlotting = "0.15, 0.16"
+AbstractPlotting = "0.15, 0.16, 0.18"
 Ferrite = "0.3"
+GLFW = "3.4.1"
 GeometryBasics = "0.3"
 GeometryTypes = "0.8"
-GLFW = "3.4.1"
 IJulia = "1.23.2"
 Makie = "0.12.0"
 Nonconvex = "0.5.2"
