@@ -11,7 +11,8 @@ const ferrite_to_vtk = Dict( Triangle => 5,
                             Tetrahedron => 10, 
                             QuadraticTetrahedron => 24, 
                             Hexahedron => 12, 
-                            QuadraticHexahedron => 25
+                            QuadraticHexahedron => 25,
+                            Line2D => 3
                           )
 
 """
